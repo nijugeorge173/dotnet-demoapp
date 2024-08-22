@@ -22,10 +22,17 @@ ENV CORECLR_ENABLE_PROFILING=1 \
 CORECLR_PROFILER={36032161-FFC0-4B61-B559-F6C5D41BAE5A} \
 CORECLR_NEWRELIC_HOME=/app/newrelic-dotnet-agent \
 CORECLR_PROFILER_PATH=/app/newrelic-dotnet-agent/libNewRelicProfiler.so \
-NEW_RELIC_LICENSE_KEY=<> \
+NEW_RELIC_LICENSE_KEY=eu01xx2fca99a6cabde4af2e29a8919bFFFFNRAL \
 NEW_RELIC_APP_NAME=DOTNET6.0
 
+# Expose port 5000 from Kestrel webserver
 EXPOSE 5000
+
+# Tell Kestrel to listen on port 5000 and serve plain HTTP
+ENV ASPNETCORE_URLS http://*:5000
+ENV ASPNETCORE_ENVIRONMENT Production
+# This is critical for the Azure AD signin flow to work in Kubernetes and App Service
+ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
 
 WORKDIR /app
 COPY --from=build /app .
