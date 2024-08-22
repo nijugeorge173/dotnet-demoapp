@@ -1,0 +1,14 @@
+[Info ] 2024-08-22 12:18:37 Logger initialized.
+[Info ] 2024-08-22 12:18:37 Initializing ThreadProfiler
+[Info ] 2024-08-22 12:18:37 ICorProfilerInfo10 available
+[Info ] 2024-08-22 12:18:37 Loading instrumentation from /app/newrelic-dotnet-agent/extensions
+[Info ] 2024-08-22 12:18:37 Identified 246 Instrumentation points (not ignored) in .xml files
+[Info ] 2024-08-22 12:18:37 Command line: ./dotnet-demoapp 
+[Info ] 2024-08-22 12:18:37 Process . with parent process . is not IIS.
+[Info ] 2024-08-22 12:18:37 Profiler initialized
+[Info ] 2024-08-22 12:18:37 Unable to find Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker for rejit. HR:-2146234064
+[Info ] 2024-08-22 12:18:37 Instrumenting method: (Module: /usr/share/dotnet/shared/Microsoft.AspNetCore.App/6.0.33/Microsoft.AspNetCore.Hosting.dll, AppDomain: clrhost)[Microsoft.AspNetCore.Hosting]Microsoft.Extensions.Hosting.GenericHostWebHostBuilderExtensions.ConfigureWebHost(Microsoft.Extensions.Hosting.IHostBuilder,System.Action`1[Microsoft.AspNetCore.Hosting.IWebHostBuilder])
+[Info ] 2024-08-22 12:18:40 Instrumenting method: (Module: /usr/share/dotnet/shared/Microsoft.AspNetCore.App/6.0.33/Microsoft.AspNetCore.Hosting.dll, AppDomain: clrhost)[Microsoft.AspNetCore.Hosting]Microsoft.Extensions.Hosting.GenericHostWebHostBuilderExtensions.ConfigureWebHost(Microsoft.Extensions.Hosting.IHostBuilder,System.Action`1[Microsoft.AspNetCore.Hosting.IWebHostBuilder],System.Action`1[Microsoft.Extensions.Hosting.WebHostBuilderOptions])
+[Info ] 2024-08-22 12:18:40 Instrumenting method: (Module: /usr/share/dotnet/shared/Microsoft.NETCore.App/6.0.33/System.Net.Http.dll, AppDomain: clrhost)[System.Net.Http]System.Net.Http.SocketsHttpHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+[Info ] 2024-08-22 12:18:42 Instrumenting method: (Module: /usr/share/dotnet/shared/Microsoft.AspNetCore.App/6.0.33/Microsoft.Extensions.Logging.dll, AppDomain: clrhost)[Microsoft.Extensions.Logging]Microsoft.Extensions.Logging.LoggerFactory.AddProviderRegistration(Microsoft.Extensions.Logging.ILoggerProvider,System.Boolean)
+[Info ] 2024-08-22 12:18:42 Instrumenting method: (Module: /usr/share/dotnet/shared/Microsoft.AspNetCore.App/6.0.33/Microsoft.Extensions.Logging.dll, AppDomain: clrhost)[Microsoft.Extensions.Logging]Microsoft.Extensions.Logging.Logger.Log(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,!!0,System.Exception,System.Func`3[!!0,System.Exception,System.String])

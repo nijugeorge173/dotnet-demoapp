@@ -1,0 +1,29 @@
+﻿2024-08-22 12:18:39,884 NewRelic   INFO: [pid: 1, tid: 1] Log level set to INFO
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.AspNetCore6Plus.dll
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.Owin.dll
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.AspNet.dll
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.Sql.dll
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.MassTransit.dll
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.dll
+2024-08-22 12:18:39,947 NewRelic   INFO: [pid: 1, tid: 1] The following assembly will be loaded on-demand: /app/newrelic-dotnet-agent/extensions/NewRelic.Providers.Wrapper.Kafka.dll
+2024-08-22 12:18:39,998 NewRelic   INFO: [pid: 1, tid: 1] Loading extensions of type NewRelic.Agent.Extensions.Providers.IContextStorageFactory from folder: /app/newrelic-dotnet-agent/extensions
+2024-08-22 12:18:40,032 NewRelic   INFO: [pid: 1, tid: 1] Loading extensions of type NewRelic.Agent.Extensions.Providers.IContextStorageFactory from folder: /app/newrelic-dotnet-agent/extensions
+2024-08-22 12:18:40,217 NewRelic   INFO: [pid: 1, tid: 1] Application name from NEW_RELIC_APP_NAME Environment Variable.
+2024-08-22 12:18:40,281 NewRelic   INFO: [pid: 1, tid: 1] Loading extensions of type NewRelic.Agent.Extensions.Providers.Wrapper.IWrapper from folder: /app/newrelic-dotnet-agent/extensions
+2024-08-22 12:18:40,366 NewRelic   INFO: [pid: 1, tid: 5] Current TLS Configuration (System.Net.ServicePointManager.SecurityProtocol): SystemDefault
+2024-08-22 12:18:40,556 NewRelic   INFO: [pid: 1, tid: 5] Current HttpClientHandler TLS Configuration (HttpClientHandler.SslProtocols): None
+2024-08-22 12:18:40,591 NewRelic   INFO: [pid: 1, tid: 1] Reading configuration from "/app/newrelic-dotnet-agent/newrelic.config"
+2024-08-22 12:18:40,672 NewRelic   INFO: [pid: 1, tid: 1] The New Relic .NET Agent v10.27.0.0 started (pid 1) on app domain 'dotnet-demoapp'
+2024-08-22 12:18:42,392 NewRelic   INFO: [pid: 1, tid: 1] Log provider Microsoft.Extensions.Logging.Console.ConsoleLoggerProvider will use Microsoft.Extensions.Logging instrumentation.
+2024-08-22 12:18:42,397 NewRelic   INFO: [pid: 1, tid: 1] Log provider Microsoft.Extensions.Logging.Debug.DebugLoggerProvider will use Microsoft.Extensions.Logging instrumentation.
+2024-08-22 12:18:42,397 NewRelic   INFO: [pid: 1, tid: 1] Log provider Microsoft.Extensions.Logging.EventSource.EventSourceLoggerProvider will use Microsoft.Extensions.Logging instrumentation.
+2024-08-22 12:18:42,400 NewRelic   INFO: [pid: 1, tid: 1] Log provider Microsoft.Extensions.Logging.ApplicationInsights.ApplicationInsightsLoggerProvider will use Microsoft.Extensions.Logging instrumentation.
+2024-08-22 12:18:42,878 NewRelic   INFO: [pid: 1, tid: 5] Your New Relic Application Name(s): DOTNET6.0
+2024-08-22 12:18:44,073 NewRelic   INFO: [pid: 1, tid: 5] Agent dotnet-demoappDOTNET6.0 connected to collector.eu01.nr-data.net:443
+2024-08-22 12:18:44,208 NewRelic   INFO: [pid: 1, tid: 5] Reporting to: https://rpm.eu.newrelic.com/accounts/3621326/applications/534026855
+2024-08-22 12:18:44,246 NewRelic   INFO: [pid: 1, tid: 5] The following events will be harvested every 5000ms: Error events, Custom events, Transaction events
+2024-08-22 12:18:44,247 NewRelic   INFO: [pid: 1, tid: 5] Application name from NEW_RELIC_APP_NAME Environment Variable.
+2024-08-22 12:18:44,358 NewRelic   INFO: [pid: 1, tid: 5] Agent fully connected.
+2024-08-22 12:20:40,102 NewRelic   INFO: [pid: 1, tid: 14] In the last 2 minutes: 4 Log events
